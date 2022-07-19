@@ -1,0 +1,26 @@
+{
+  "name": "01-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanOliveira/EW_NodeJS.git"
+  },
+  "keywords": [
+    "git",
+    "node",
+    "javascript",
+    "api"
+  ],
+  "author": "Stefan de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanOliveira/EW_NodeJS/issues"
+  },
+  "homepage": "https://github.com/StefanOliveira/EW_NodeJS#readme"
+}
