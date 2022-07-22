@@ -34,23 +34,23 @@ function getAddr(userId, callback) {
 
 }
 
-function userResolv(erro, user) {
+/*function userResolv(erro, user) {
     console.log('User', user)
-}
+}*/
 
 getUser(function userResolv(error, user) {
     if (error) {
-        console.error('Shit Happens no User', error)
+        console.error('Shit Happens, no User', error)
         return;
     }
     getPhone(user.id, function phoneResolv(error1, phone) {
         if (error1) {
-            console.error('Shit Happens no Phone', error)
+            console.error('Shit Happens, no Phone', error)
             return;
         }
-        getAddr(user.id, function addResolv(error2, address) {
+        getAddr(user.id, function addrResolv(error2, address) {
             if (error2) {
-                console.error('Shit Happens no Address', error)
+                console.error('Shit Happens, no Address', error)
                 return;
             }
 
